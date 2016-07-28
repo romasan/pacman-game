@@ -1,0 +1,2 @@
+var lee=function(a,n,p,g,h){var k,q,l=[],e=[],e=[];for(b in a)for(c in e[b]=[],a)e[b][c]=0==a[b][c]?-2:-1;k=a[0].length;q=a.length;a=[{x:1,y:0},{x:0,y:1},{x:-1,y:0},{x:0,y:-1}];var f,c,b,d,m;f=0;e[p][n]=0;do{m=!0;for(b=0;b<q;++b)for(c=0;c<k;++c)if(e[b][c]==f)for(d in a){var r=b+a[d].y,s=c+a[d].x;try{-2==e[r][s]&&(m=!1,e[b+a[d].y][c+a[d].x]=f+1)}catch(t){}}f++}while(!m&&-2==e[h][g]);if(-2==e[h][g])return!1;k=e[h][g];c=g;b=h;for(f=k;0<f;)for(l[f]={x:c,y:b},f--,d=0;4>d;++d)try{if(e[b+a[d].y][c+a[d].x]==
+f){c+=a[d].x;b+=a[d].y;break}}catch(u){}l[0]={x:n,y:p};return l};
