@@ -1,3 +1,3 @@
 # pacman-game
 
-Roman Bauer 2014
+Roman Bauer 2015
